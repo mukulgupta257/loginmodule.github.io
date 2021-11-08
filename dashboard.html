@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" href="./media/icon.png" type="img/png" >
+    <link rel="stylesheet" href="./dashboard.css" >
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div class="main-body">
+        <div class="sidebar">
+            <ul>
+                <li id='company-name'>
+                    <span class="material-icons">face</span>
+                    <span id='dash-items'>Company name</span>
+                </li>
+                <li>
+                    <span class="material-icons">cottage</span>
+                    <span id='dash-items'>Home</span>
+                </li>
+                <li>
+                    <span class="material-icons">account_circle</span>
+                    <span id='dash-items'>Profile</span>
+                </li>
+                <li>
+                    <span class="material-icons">settings</span>
+                    <span id='dash-items'>Settings</span>
+                </li>
+                <li>
+                        <span class="material-icons">logout</span>
+                        <span id='dash-items'>Signout</span>
+                </li>
+            </ul>
+        </div>
+        <div class="side-body">
+            <div class="top-bar">
+                <div class="hide" onclick="togglemenu()">
+                    <span class="material-icons">menu</span>
+                </div>
+                    <input id="search-top-bar" type="text" placeholder="Search">
+                <img src="./media/user-image.png">
+            </div>
+        </div>
+    </div>
+    <script src="./dashboard.js">    </script>
+</body>
+</html>
